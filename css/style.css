@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Josefin Sans";
     color: #fff;
+    scroll-behavior: smooth;
 }
 /*start style home page*/
 .contianer{
@@ -42,7 +43,7 @@
 .contianer .contant nav .contNav{
     position: absolute;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background-color: #666;
 }
 .clossContNav{
@@ -81,6 +82,7 @@
 }
 .contianer .contant nav ul li a{
     text-decoration: none;
+    color: #fff;
 }
 /*end code nav*/
 
@@ -112,7 +114,7 @@
 }
 .contianer .contant .fed p{
     font-size: 20px;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
     text-align: center
 }
 /*the style icon*/
@@ -297,11 +299,13 @@ body {
     width: 40%;
     height: 60vh;
     margin: 50px;
-    padding-top: px;
-    
     color: #FFF;
-
 }
+.section1 .div1 .p{
+    font-size: 20px;
+    padding: 5vh;
+}
+
 .section1 .div1 img{
     width: 70%;
     height: 70vh;
